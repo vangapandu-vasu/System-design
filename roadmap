@@ -1,0 +1,55 @@
+Perfect. Here's a 30-day System Design Roadmap tailored for SDE interviews (suitable for product-based companies like Amazon, Google, Microsoft, etc.) and designed for 1–2 hours/day commitment.
+
+🗺️ SYSTEM DESIGN ROADMAP FOR SDE INTERVIEW (30 Days)
+Days	Topics / Tasks	Notes
+Day 1	Introduction to System Design
+- HLD vs LLD
+- Functional vs Non-functional	Clear the foundation
+Day 2	Basics of Scalability, Availability, Reliability, Maintainability	Core principles
+Day 3	Horizontal vs Vertical Scaling
+Monolith vs Microservices	Tradeoffs understanding
+Day 4	Load Balancer – Concept, types, real-world use	Draw diagrams
+Day 5	Caching – Redis, Memcached, LRU Cache	Include eviction policies
+Day 6	Database Design Basics – ER Models, Normalization, Indexing	SQL focus
+Day 7	NoSQL – Types (Key-Value, Document, Column, Graph), use-cases	MongoDB, Cassandra
+Day 8	CAP Theorem, BASE vs ACID	Core for DB decisions
+Day 9	Sharding and Replication	For scaling DBs
+Day 10	Consistent Hashing – use in distributed systems	Use diagrams
+Day 11	CDN (Content Delivery Network)	Akamai, Cloudflare
+Day 12	Message Queues – Kafka, RabbitMQ	For async communication
+Day 13	Rate Limiting and Throttling	Leaky bucket, token bucket
+Day 14	API Design Principles – REST, versioning, authentication	HATEOAS, JWT
+Day 15	Authentication & Authorization – OAuth, JWT, Sessions
+🧪 PROJECT PHASE – HLD Practice (Days 16–30)
+Each project is designed to give real interview-level experience.
+
+Day	Project
+Day 16-17	✅ Design URL Shortener (bit.ly): unique short URLs, DB, cache
+Day 18-19	📬 Design Rate Limiter: IP/user-based rate limiting
+Day 20-21	💬 Design Chat System: 1-1 messaging, WebSockets, storage
+Day 22-23	📸 Design Instagram: Posts, Likes, Comments, Feed
+Day 24-25	📺 Design YouTube: Upload, stream, recommend videos
+Day 26-27	🛒 Design E-commerce System: Orders, payments, inventory
+Day 28	🔐 Design Auth System: Email OTP, login, reset password
+Day 29	📚 Revise Core Concepts (Caching, Load Balancers, DB choices)
+Day 30	✅ Mock Interview Prep: Explain one system end-to-end to yourself
+
+📚 RECOMMENDED RESOURCES (Optional but Powerful)
+YouTube: Gaurav Sen, Tech Dummies, System Design Primer series
+
+GitHub: System Design Primer
+
+Books:
+
+“Designing Data-Intensive Applications” by Martin Kleppmann
+
+“System Design Interview” by Alex Xu (Vol 1 & 2)
+
+📌 Tips for SDE Interviews
+Think in terms of trade-offs: speed vs consistency, availability vs complexity.
+
+Always start with requirements: functional & non-functional.
+
+Draw a block diagram on whiteboard/paper before jumping into design.
+
+Talk aloud during interviews: explain your thinking clearly.
