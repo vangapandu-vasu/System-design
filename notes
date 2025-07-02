@@ -17,4 +17,5 @@ System design :
     when ever you add a server you have register it on load balancer it will check if the srver is healthy or not meaning it works for atleast a minute, is it able to handle traffic.
     This the intelligence of load balancer.
     "In amazon they call it ELB elastic load balancer.
+    even load balancer can crash but they get the best resources.
 
