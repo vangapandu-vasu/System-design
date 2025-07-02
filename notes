@@ -2,3 +2,5 @@ System design :
   Dns resolutions:
     actually dns holds the ip addresses and domain name like ip address of amazon and amazon
     so whenever your are requesting to a server, it mean u r not requesting to server u are requesting to dns and dns gives u the ip address and your are searching the ip address not the name.
+  vertical scaling:
+    increasing your resources like cpu ram is know to be vertical scaling.
