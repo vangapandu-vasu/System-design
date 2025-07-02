@@ -7,3 +7,7 @@ System design :
     increasing or adding more resoures to your single processor or machine
     drawback in vertical scaling:
       it takes down time to add up resources, down time mean the server will be down to add up the resources because you cannot add the cpu or ram while running.
+  horizontal scaling:
+    to avoid down time we will use horizontal scaling which incearses the servers not add up the resources to one server 
+    as the users inceases we will increase the servers but here every server as a different ip address so the dns gives the first server ip to the users so whats the point in different servers when you cant redirect 
+    users to other servers.
