@@ -5,3 +5,5 @@ System design :
   vertical scaling:
     increasing your resources like cpu ram is know to be vertical scaling.
     increasing or adding more resoures to your single processor or machine
+    drawback in vertical scaling:
+      it takes down time to add up resources, down time mean the server will be down to add up the resources because you cannot add the cpu or ram while running.
