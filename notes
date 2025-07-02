@@ -11,3 +11,6 @@ System design :
     to avoid down time we will use horizontal scaling which incearses the servers not add up the resources to one server 
     as the users inceases we will increase the servers but here every server as a different ip address so the dns gives the first server ip to the users so whats the point in different servers when you cant redirect 
     users to other servers.
+  to solve this we have "load balancer";
+  Load balancer:
+    we create a load balancer and give its ip address to dns now when ever the users searches for the amazon he will get the load balancer the load balancer will redirect the user to server based on algorithms.
