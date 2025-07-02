@@ -14,3 +14,7 @@ System design :
   to solve this we have "load balancer";
   Load balancer:
     we create a load balancer and give its ip address to dns now when ever the users searches for the amazon he will get the load balancer the load balancer will redirect the user to server based on algorithms.
+    when ever you add a server you have register it on load balancer it will check if the srver is healthy or not meaning it works for atleast a minute, is it able to handle traffic.
+    This the intelligence of load balancer.
+    "In amazon they call it ELB elastic load balancer.
+
