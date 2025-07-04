@@ -36,7 +36,14 @@ System design :
     we give it in queue form which works in async manner in amazon we call sqs.
     now how do we pick my from queue?
     we have two methods:
-      push: we push it from payments to gmail.
+      push: we push it from payments to email worker.
       pull: the email worker takes it from payments.
       in amazon we use sqs so it is pull mechanism.
       we have short pull and long pull so short pull(high cost and high api call) is for every second and long pull is for every 10 seconds.
+
+  PubSub:
+    consider you have to to multiple things at a time so we use pubsub there a single event can trigger man things like if you are doing a payment let the
+    email worker
+    notifications
+    messages
+    so you use pubSub there because queue only gives to single server one-one mechanism but PubSub can one-many.
