@@ -48,3 +48,6 @@ System design :
     messages
     so you use pubSub there because queue only gives to single server one-one mechanism but PubSub can one-many.
     But in PubSub there exists no acknowledgement you never know if the email worker processed it to gmail but in queue you have that.
+    For overcome that we have "FANOUT ARCHITECTURE"
+    Fanout architecture:
+      your adding SubPub to payments and queue mechanism to email worker and others so its overcoming it.
