@@ -31,4 +31,11 @@ System design :
     to there respective server.....
     The server are known to be ec2 machines elastic commmute in amazon terminolgy we call it vm machines
 
-
+    So in services or ec machines we microservices like payments we interact with gmail stating that you have done the payment
+    here consider you set it in sync manner itialize the payment let the iser receive gmail and process but it is not an efficient way so we have queue form 
+    we give it in queue form which works in async manner in amazon we call sqs.
+    now how do we pick my from queue?
+    we have two methods:
+      push: we push it from payments to gmail.
+      pull: the gmail takes it from payments.
+      in amazon we use sqs so it is pull mechanism
