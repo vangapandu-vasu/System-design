@@ -38,4 +38,5 @@ System design :
     we have two methods:
       push: we push it from payments to gmail.
       pull: the gmail takes it from payments.
-      in amazon we use sqs so it is pull mechanism
+      in amazon we use sqs so it is pull mechanism.
+      we have short pull and long pull so short pull(high cost and high api call) is for every second and long pull is for every 10 seconds.
