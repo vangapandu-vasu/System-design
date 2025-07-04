@@ -19,3 +19,13 @@ System design :
     "In amazon they call it ELB elastic load balancer.
     even load balancer can crash but they get the best resources.
 
+  API gateway:
+    consider we are having different applications or services like:
+      auth
+      orders
+      payments
+      etc...
+    we have different servers for each of them so for that we create a load balancer for them and connect the load balancer to "router"
+    "router is nothing but API gateway" this api gateway directs to different services's load balancer and there individual load balancer decides to redirect 
+    to there respective server.....
+
