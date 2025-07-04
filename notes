@@ -20,6 +20,7 @@ System design :
     even load balancer can crash but they get the best resources.
 
   API gateway:
+    An API gateway acts as a single entry point for handling client requests to one or more backend services, often used in microservices architectures..
     consider we are having different applications or services like:
       auth
       orders
@@ -29,4 +30,5 @@ System design :
     "router is nothing but API gateway" this api gateway directs to different services's load balancer and there individual load balancer decides to redirect 
     to there respective server.....
     The server are known to be ec2 machines elastic commmute in amazon terminolgy we call it vm machines
+
 
