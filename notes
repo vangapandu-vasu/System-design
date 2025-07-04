@@ -28,4 +28,5 @@ System design :
     we have different servers for each of them so for that we create a load balancer for them and connect the load balancer to "router"
     "router is nothing but API gateway" this api gateway directs to different services's load balancer and there individual load balancer decides to redirect 
     to there respective server.....
+    The server are known to be ec2 machines elastic commmute in amazon terminolgy we call it vm machines
 
