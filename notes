@@ -47,3 +47,4 @@ System design :
     notifications
     messages
     so you use pubSub there because queue only gives to single server one-one mechanism but PubSub can one-many.
+    But in PubSub there exists no acknowledgement you never know if the email worker processed it to gmail but in queue you have that.
