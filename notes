@@ -32,7 +32,7 @@ System design :
     The server are known to be ec2 machines elastic commmute in amazon terminolgy we call it vm machines
 
     So in services or ec machines we microservices like payments we interact with email worker stating that you have done the payment
-    here consider you set it in sync manner itialize the payment let the iser receive email worker and process but it is not an efficient way so we have queue form 
+    here consider you set it in sync manner itialize the payment let the user receive email worker and process but it is not an efficient way so we have queue form 
     we give it in queue form which works in async manner in amazon we call sqs.
     now how do we pick my from queue?
     we have two methods:
@@ -42,7 +42,7 @@ System design :
       we have short pull and long pull so short pull(high cost and high api call) is for every second and long pull is for every 10 seconds.
 
   PubSub:
-    consider you have to to multiple things at a time so we use pubsub there a single event can trigger man things like if you are doing a payment let the
+    consider you have to to multiple things at a time so we use pubsub there a single event can trigger many things like if you are doing a payment let the
     email worker
     notifications
     messages
