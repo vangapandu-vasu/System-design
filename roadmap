@@ -54,3 +54,24 @@ Draw a block diagram on whiteboard/paper before jumping into design.
 
 Talk aloud during interviews: explain your thinking clearly.
 
+🧠 Want to Level Up Even More?
+Here’s what you can do now (only if you're aiming for very top interviews like Google, Uber, etc.):
+
+Learn trade-offs better: SQL vs NoSQL, consistency vs availability.
+
+Study design patterns (Circuit breaker, Bulkhead, etc.).
+
+Try mock designing complex systems:
+
+Design Instagram stories
+
+Design WhatsApp messaging
+
+Design Google Docs collaboration
+
+Add a few AWS/Azure/GCP diagrams to explain services when needed.
+
+Read 2–3 system design case studies like:
+
+https://github.com/donnemartin/system-design-primer
+
